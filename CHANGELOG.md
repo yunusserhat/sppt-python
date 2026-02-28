@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.6 (2026-02-28)
+
+### Fixed
+
+- Rebuilt from correct commit (v0.1.5 was published from a stale commit)
+- PyPI description now matches current README
+
+---
+
 ## 0.1.5 (2026-02-28)
 
 ### Added
