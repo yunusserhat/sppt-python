@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.7 (2026-02-28)
+
+### Changed
+
+- CI now publishes to PyPI only on GitHub Release (not on tag push)
+- Updated PyPI badge to shields.io SVG format
+
+---
+
 ## 0.1.6 (2026-02-28)
 
 ### Fixed
