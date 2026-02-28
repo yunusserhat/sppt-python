@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.4 (2026-02-28)
+
+### Changed
+
+- Removed manual Zenodo workflow (now using native Zenodo-GitHub integration)
+- Clean final release
+
+---
+
 ## 0.1.3 (2026-02-28)
 
 ### Changed
