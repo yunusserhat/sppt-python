@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sppt"
+version = "0.1.0"
+description = "Spatial Point Pattern Test (SPPT) for Aggregated Data — bootstrap-based spatial distribution comparison"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [
+    {name = "Yunus Serhat Bıçakçı"},
+]
+maintainers = [
+    {name = "Yunus Serhat Bıçakçı"},
+]
+keywords = [
+    "spatial-analysis",
+    "bootstrap",
+    "s-index",
+    "crime-analysis",
+    "geopandas",
+    "spatial-statistics",
+    "sppt",
+    "point-pattern-test",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "geopandas>=0.14",
+    "scipy>=1.11",
+    "matplotlib>=3.7",
+    "shapely>=2.0",
+    "pyproj>=3.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "build", "twine"]
+
+[project.urls]
+Homepage = "https://github.com/yunusserhat/sppt"
+Repository = "https://github.com/yunusserhat/sppt"
+Issues = "https://github.com/yunusserhat/sppt/issues"
+Documentation = "https://github.com/yunusserhat/sppt#readme"
+
+[tool.setuptools.packages.find]
+include = ["sppt*"]
+
+[tool.setuptools.package-data]
+sppt = ["data/*.shp", "data/*.shx", "data/*.dbf", "data/*.prj"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
