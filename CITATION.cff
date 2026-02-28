@@ -7,7 +7,7 @@ authors:
     given-names: Yunus Serhat
     orcid: "https://orcid.org/0000-0002-7288-9959"
     affiliation: "Marmara University"
-repository-code: "https://github.com/yunusserhat/sppt"
+repository-code: "https://github.com/yunusserhat/sppt-python"
 url: "https://pypi.org/project/sppt/"
 doi: "10.5281/zenodo.18813171"
 license: MIT

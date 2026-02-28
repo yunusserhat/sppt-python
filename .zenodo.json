@@ -36,6 +36,11 @@
             "scheme": "url"
         },
         {
+            "identifier": "https://github.com/yunusserhat/sppt-python",
+            "relation": "isIdenticalTo",
+            "scheme": "url"
+        },
+        {
             "identifier": "https://github.com/martin-a-andresen/sppt.aggregated.data",
             "relation": "isDerivedFrom",
             "scheme": "url"

@@ -4,7 +4,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18813171.svg)](https://doi.org/10.5281/zenodo.18813171)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yunusserhat/sppt/blob/main/notebooks/01_quickstart.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yunusserhat/sppt-python/blob/main/notebooks/01_quickstart.ipynb)
 
 A Python implementation of the **Spatial Point Pattern Test (SPPT)** for aggregated count data. Uses bootstrap resampling to compare spatial distributions between variables and calculates **S-Index** metrics to quantify spatial pattern overlap.
 
@@ -34,8 +34,8 @@ pip install sppt
 For development:
 
 ```bash
-git clone https://github.com/yunusserhat/sppt.git
-cd sppt
+git clone https://github.com/yunusserhat/sppt-python.git
+cd sppt-python
 pip install -e ".[dev]"
 ```
 
@@ -212,8 +212,8 @@ result = sppt(
 
 | Notebook | Description | Colab |
 |----------|-------------|-------|
-| [Quickstart](notebooks/01_quickstart.ipynb) | Basic usage with Vancouver crime data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yunusserhat/sppt/blob/main/notebooks/01_quickstart.ipynb) |
-| [Advanced Examples](notebooks/02_advanced_examples.ipynb) | All modes, export, publication maps | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yunusserhat/sppt/blob/main/notebooks/02_advanced_examples.ipynb) |
+| [Quickstart](notebooks/01_quickstart.ipynb) | Basic usage with Vancouver crime data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yunusserhat/sppt-python/blob/main/notebooks/01_quickstart.ipynb) |
+| [Advanced Examples](notebooks/02_advanced_examples.ipynb) | All modes, export, publication maps | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yunusserhat/sppt-python/blob/main/notebooks/02_advanced_examples.ipynb) |
 
 ---
 
@@ -254,7 +254,7 @@ If you use this package in your research, please cite both the Python package an
   author  = {Bıçakçı, Yunus Serhat},
   title   = {sppt: Spatial Point Pattern Test for Aggregated Data (Python)},
   year    = {2026},
-  url     = {https://github.com/yunusserhat/sppt},
+  url     = {https://github.com/yunusserhat/sppt-python},
   doi     = {10.5281/zenodo.18813171},
   note    = {Python implementation based on the R package by Martin A. Andresen}
 }
